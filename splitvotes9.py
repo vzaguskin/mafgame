@@ -35,7 +35,7 @@ g.set_outcome(g.root.children[1].children[0].children[1], g.add_outcome([0.3, 0.
 
 #"one_black "Obey" "Sit"/ "Standup""
 g.set_outcome(g.root.children[1].children[1].children[0], g.add_outcome([0, 1]))
-g.set_outcome(g.root.children[1].children[1].children[1], g.add_outcome([8 / 35, 27 / 35])) # 5 total 2 black 0 checked red
+g.set_outcome(g.root.children[1].children[1].children[1], g.add_outcome([2 / 15, 13 / 15])) # 5 total 2 black 0 checked red
 
 #"two_black "Break" "ClearAll"/ "Kick1"", assuming red player kicked out ad break
 g.set_outcome(g.root.children[2].children[0].children[0], g.add_outcome([1/3, 2/3])) # end up with 3 players guessing game

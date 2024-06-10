@@ -2,26 +2,29 @@ Current estimate without outside break:
 
 Red:
 
-[('ClearAll', 0.23809523809523833), ('Kick1', 0.7619047619047616)]
+[('ClearAll', 0.6923076923076924), ('Kick1', 0.30769230769230765)]
 
-[('Sit', 0.0), ('Standup', 1.0)]
+[('Sit', 0.30769230769230765), ('Standup', 0.6923076923076924)]
 
-payoff 0.14795918367346939
+payoff 0.1346153846153846
 
 Black:
 
 0 black in split:  [('Obey', 1.0)]
 
-1 black in split:  [('Break', 0.6666666666666666), ('Obey', 0.33333333333333337)]
+1 black in split:  [('Break', 0.6153846153846153), ('Obey', 0.38461538461538464)]
 
 2 black in split:  [('Break', 1.0), ('Obey', 0.0)]
 
-3 black in split:  [('Break', 1.0), ('Obey', 0.0)]
+3 black in split:  [('Break', 0.5384615384615385), ('Obey', 0.4615384615384614)]
 
-payoff 0.8520408163265306
+payoff 0.8653846153846154
+
 
 
 Current estimate with outside break:
+
+Red:
 
 BreakOutside [('ClearAll', 0.3333333333333334), ('Kick1', 0.6666666666666666)]
 
@@ -42,6 +45,7 @@ Black:
 3 black in split:  [('Break', 0.0), ('Obey', 1.0)]
 
 payoff 0.8877551020408163
+
 
 
 No split just vote 10 monkeys style with 9 players and 1 checked red:
