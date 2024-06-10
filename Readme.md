@@ -21,7 +21,7 @@ Black:
 payoff 0.8520408163265306
 
 
-Current estimate without outside break:
+Current estimate with outside break:
 
 BreakOutside [('ClearAll', 0.3333333333333334), ('Kick1', 0.6666666666666666)]
 
