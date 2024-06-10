@@ -31,7 +31,7 @@ g.set_outcome(g.root.children[0].children[0].children[1], g.add_outcome([0, 1]))
 
 #"one_black "Break" "ClearAll"/ "Kick1""
 g.set_outcome(g.root.children[1].children[0].children[0], g.add_outcome([0, 1]))
-g.set_outcome(g.root.children[1].children[0].children[1], g.add_outcome([0.3, 0.7])) #7 total 2 black 2 checked black
+g.set_outcome(g.root.children[1].children[0].children[1], g.add_outcome([0.3, 0.7])) #7 total 2 black 2 checked red
 
 #"one_black "Obey" "Sit"/ "Standup""
 g.set_outcome(g.root.children[1].children[1].children[0], g.add_outcome([0, 1]))
